@@ -1,0 +1,98 @@
+/* Colores */
+:root {
+  --primary-color: #000366;
+  --secondary-color: #05f8fc;
+  --accent-color: #ffd966;
+  }
+  
+  /* Estilos generales */
+  body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--secondary-color);
+  }
+  
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  }
+  
+  /* Selectores */
+  label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  }
+  
+  select {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+  }
+  
+  select:hover,
+  select:focus {
+  outline: none;
+  box-shadow: 0 0 2px var(--accent-color);
+  }
+  
+  /* Resultado del clima */
+  .weather {
+  margin-top: 2rem;
+  text-align: center;
+  }
+  
+  .weather h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-shadow: 2px 2px var(--accent-color);
+  }
+  
+  .weather p {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-shadow: 1px 1px var(--accent-color);
+  }
+  
+  .weather img {
+  max-width: 100px;
+  margin-top: 1rem;
+  filter: drop-shadow(2px 2px var(--accent-color));
+  }
+  
+  /* Estilos adicionales */
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  }
+  
+  header h1 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-shadow: 2px 2px var(--accent-color);
+  }
+  
+  header img {
+  max-width: 70px;
+  }
+  
+  .title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  header h1 {
+  font-size: 2rem;
+  }
+  }
