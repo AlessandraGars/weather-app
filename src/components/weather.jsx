@@ -12,3 +12,5 @@ export const getCityWeather = async city => {
     };
     return await ajax(optionsRequest);
 }
+
+export { getCityWeather }

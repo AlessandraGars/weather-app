@@ -16,3 +16,5 @@ export const getCities = async countryCode => {
     };
     return await ajax(optionsRequest);
 }
+
+export { getCities };

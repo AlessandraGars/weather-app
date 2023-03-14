@@ -7,3 +7,5 @@ export const getCountries = async () => {
     };
     return await ajax(optionsRequest);
 }
+
+export { getCountries };
