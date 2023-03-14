@@ -49,7 +49,7 @@ const App = () => {
                <h2>Actual temperature: {weather.main.temp}º</h2>
                <p>Min: {weather.main.temp_min.toFixed()}°</p>
                <p>Max: {weather.main.temp_max.toFixed()}°</p>
-               <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt="weather icon" />
+               <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}04n@2x.png`} alt="weather icon" />
             </div>
          )}
       </>
